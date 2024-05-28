@@ -17,21 +17,25 @@ Le `c2691` va servir à créer les Acces Switch, tant dis que le `c3745` va serv
 
 Pour le `c2691` il faut :
 
+- Dynamips IOS routers
+- [x] This is an EtherSwitch router
 - 128 MiB de RAM
 - Interfaces :
 	+ slot 0: GT96100-FE
 	+ slot 1: NM-16ESW
-- C'est un etherswitch
+- Cliquer sur `idle-PC finder`
 
 Pour le `c3745` il faut :
 
+- Dynamips IOS routers
+- [x] This is an EtherSwitch router
 - 256 MiB de RAM
 - Interfaces :
 	+ slot 0: GT96100-FE
 	+ slot 1: NM-1FE-TX
 	+ slot 2: NM-1FE-TX
 	+ slot 3: NM-16ESW
-- C'est un etherswitch
+- Cliquer sur `idle-PC finder`
 
 # Configuration VLAN, Trunk Mode & CDP - Dsw & Asw
 
