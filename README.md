@@ -673,7 +673,9 @@ Checking for duplicate address...
 PC5 : 172.18.0.55 255.255.255.0 gateway 172.18.0.2
 ```
 
-# Commandes pour débug et vérifier les config
+# Débug et vérification
+
+## Commandes
 
 ```
 show vlan-sw
@@ -695,6 +697,10 @@ Show standby brief
 
 show ip nat translation
 ```
+
+## Remarques
+
+- J'ai du mettre sur les Asw le vlan 1 comme native dans les ports trunk vers les Dsw pour que les messages CDP et VTP puissent passer.
 
 ## Wtf
 
