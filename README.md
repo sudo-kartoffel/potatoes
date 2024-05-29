@@ -678,6 +678,7 @@ PC5 : 172.18.0.55 255.255.255.0 gateway 172.18.0.2
 ```
 show vlan-sw
 show vtp status
+show vtp counters
 
 show cdp neighbors
 
